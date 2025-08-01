@@ -1,0 +1,6 @@
+O arquivo pacientes.xlsx é um exemplo de como recebemos os arquivos
+O exemplo-resultado.xlsx é como precisamos dos dados para importamos no nosso sistema
+Em campos numéricos como CEP, CPF e Telefones remover todos os caracteres que não sejam números. Exemplo: de (55) 98726-1287 para 55987261287
+No campo de data manter o formato DD/MM/AAAA. Por exemplo 25/02/1974
+Dê preferencia para resolver utilizando Python, se utilizar a biblioteca Pandas melhor ainda
+Explique como chegou na solução e compartilhe conosco o seu código
