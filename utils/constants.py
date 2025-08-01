@@ -11,7 +11,7 @@ from core.normaliza_cpf import verificar_cpf
 from core.normaliza_cep import verificar_cep
 from core.transfere_dados import transferir_dados
 
-TARGET_DATA = "C:\devprograms\Teste Pratico GestaoDS\data\pacientes.xlsx"
+TARGET_DATA = "data/pacientes.xlsx"
 
 DICIONARIO_COLUNAS = {
     'Codigo do paciente':      ('IdPaciente', None),
