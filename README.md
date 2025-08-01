@@ -1,7 +1,6 @@
 Esse é um desafio pratico para estágio de migração de dados.
 
 ## Por dentro do projeto
-
 Nesse desafio usei a biblioteca pandas, re (regex) e numpy para resolver o desafio prático de migração de dados da GestãoDS.
 
 ## 🧠 Funcionalidades
@@ -51,3 +50,14 @@ O foco é a manipulação de dados sujos, simulando um cenário de migração ou
 
 Alguns dados inválidos podem ser corrigidos conforme as regras de negócio da empresa, essa implementação pode ser facilmente adicionada
 no diretório core/ do devido elemento (CPF, RG, CEP...).
+
+## 💬 Comentários
+Para chegar no resultado, observei as diferenças entre as duas tabelas e as possiveis irregularidades nos dados passados com os dados esperados.
+
+Utilizei a biblioteca pandas, para fazer a leitura e ter acesso ao arquivo como um data frame (estrutura de dado).
+
+Utilizei ReGex para identificar padrões nas strings e, com as funções modulares, corrigir essas irregularidades.
+
+Fiz o uso de dicionarios (no arquivo constants.py) para percorrer e o codigo ficar mais limpo. Além disso, caso queira fazer modificações de ordem de tabelas, poderia só mexer nessa variável.
+
+Separei as funções por categorias em arquivos para que o código se torne mais legivel e, caso necessária alteração, altera apenas um arquivo, impedindo erros ou que diversas alterações sejam feitas.
