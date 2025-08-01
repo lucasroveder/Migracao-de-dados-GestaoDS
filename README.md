@@ -42,6 +42,8 @@ Execute o script principal:
 python main.py
 ```
 
+Ao executar, serão criados 2 arquivos xlsx com o resultados da migração, um nomeado Resultado Exemplo.xlsx e outro Resultado Lucas.xlsx
+
 ## 📌 Observações
 O projeto está estruturado para fácil expansão. Novos tipos de normalização podem ser adicionados no diretório core/.
 
